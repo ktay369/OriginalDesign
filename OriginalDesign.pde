@@ -7,11 +7,16 @@ void setup()
 int x2 = 0;
 void draw()
 {
+  plate();
   bread();
   mold();
-}  
-  
 
+}  
+void plate(){
+  fill(255, 255, 255);
+  ellipse(540, 360, 300, 300);
+  
+}
 void bread(){
   fill(158, 126, 71);
   rect(440, 210, 200, 300);
