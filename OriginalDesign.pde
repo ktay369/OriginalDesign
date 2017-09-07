@@ -2,6 +2,7 @@ void setup()
 {
   size(1080, 720);
   frameRate(15);
+  background(90, 150, 200);
 }
   int x = 0;
 int x2 = 0;
