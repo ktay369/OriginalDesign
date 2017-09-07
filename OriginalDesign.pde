@@ -14,7 +14,9 @@ void draw()
 }  
 void plate(){
   fill(255, 255, 255);
+  ellipse(540, 360, 500, 500);
   ellipse(540, 360, 300, 300);
+ 
   
 }
 void bread(){
